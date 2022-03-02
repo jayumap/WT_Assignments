@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Design Assignment</h1>
+<!--  form>table>tr*15>td*2  -->    
+<form action="index.html">
+    <table>
+    <tr>
+        <td>First Name</td>
+        <td><input type="text" placeholder="Enter First Name"/></td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+        <td><input type="text" placeholder="Enter Last Name"/></td>
+    </tr>
+    <tr>
+        <td>E-Mail</td>
+        <td><input type="email" placeholder="xyz@gmail.com"/></td>
+    </tr>
+    <tr>
+        <td>Mobile Number</td>
+        <td><input type="number" min="100000000" max="9999999999" /></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td><input type="radio" name="Gender" checked/>Male
+            <input type="radio" name="Gender"/>Female</td>
+    </tr>
+    <tr>
+        <td>Date of Birth</td>
+        <td><input type="date" /></td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td><textarea name="" id="" cols="25" rows="5"></textarea></td>
+    </tr>
+    <tr>
+        <td>Qualification</td>
+        <td><select name="" id="">
+            <option value="">SSC</option>
+            <option value="">HSC</option>
+            <option value="">Diploma</option>
+            <option value="" selected>B.Tech</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td rowspan="4">Specialization</td>
+        <td><input type="checkbox">Computer Science</td>
+    </tr>
+    <tr>       
+        <td><input type="checkbox">Information Technology</td>       
+    </tr>
+    <tr>       
+        <td><input type="checkbox">Electronics</td>    
+    </tr>
+    <tr>
+        <td><input type="checkbox">Mechanical Engineering</td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password"></td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Register" /></td>
+        <td><input type="reset" value="Reset" /></td>
+    </tr>
+</table>
+
+</body>
+</html>
